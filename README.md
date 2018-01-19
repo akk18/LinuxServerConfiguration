@@ -57,6 +57,7 @@ Restart ssh service:
 ###4.2  Add new user `grader` and give `sudo` permission
 
 Connect as `ubuntu` using your AWS accounts default private key - LightsailDefaultPrivateKey-us-west-2.pem:
+
 `$ ssh -i LightsailDefaultPrivateKey-us-west-2.pem ubuntu@35.161.192.163 `	
 
 Add user `grader`:
@@ -225,7 +226,11 @@ $ sudo ufw enable
 
 ## 5 Third-party resources
 <a href="https://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server">Create a new SSH user on Ubuntu Server</a>
+
 <a href="https://unix.stackexchange.com/a/179956">Add user to sudo group</a>
+
 <a href="http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/">Flask Documentation - mod_wsgi (Apache)</a>
+
 <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps">How To Secure PostgreSQL on an Ubuntu VPS</a>
+
 <a href="https://www.thegeekstuff.com/2010/09/change-timezone-in-linux/">How To: 2 Methods To Change TimeZone in Linux</a>

@@ -31,6 +31,7 @@ $ sudo apt-get install apache2
 $ sudo apt-get install libapache2-mod-wsgi
 $ sudo apt-get install postgresql
 $ sudo apt-get install git
+$ sudo apt-get install unattended-upgrades
 
 $ sudo apt-get install python python-pip
 $ sudo apt-get install libapache2-mod-wsgi python-dev
@@ -223,6 +224,8 @@ $ sudo ufw allow www
 $ sudo ufw allow ntp
 $ sudo ufw enable
 ```
+### 4.7 Set up unattended-upgrades:
+`$ sudo dpkg-reconfigure --priority=low unattended-upgrades`
 
 ## 5 Third-party resources
 <a href="https://www.cyberciti.biz/tips/setup-ssh-to-run-on-a-non-standard-port.html">Setup SSH to run on a non-standard port</a>

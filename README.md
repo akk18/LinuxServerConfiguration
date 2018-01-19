@@ -225,6 +225,8 @@ $ sudo ufw enable
 ```
 
 ## 5 Third-party resources
+<a href="https://www.cyberciti.biz/tips/setup-ssh-to-run-on-a-non-standard-port.html">Setup SSH to run on a non-standard port</a>
+
 <a href="https://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server">Create a new SSH user on Ubuntu Server</a>
 
 <a href="https://unix.stackexchange.com/a/179956">Add user to sudo group</a>
@@ -234,3 +236,5 @@ $ sudo ufw enable
 <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps">How To Secure PostgreSQL on an Ubuntu VPS</a>
 
 <a href="https://www.thegeekstuff.com/2010/09/change-timezone-in-linux/">How To: 2 Methods To Change TimeZone in Linux</a>
+
+<a href="https://github.com/TianyangChen/">Thanks to Tianyang Chen</a>

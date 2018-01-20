@@ -22,7 +22,7 @@ Please follow these steps to properly submit this project:
 ## 3 Software installed
 
 Update all currently installed packages : `$ sudo apt-get update`
-Upgrade all installed packages: `$ sudo apt-get upgrade`
+Upgrade all installed packages: `$ sudo apt-get upgrade` and `$ sudo apt-get dist-upgrade`
 
 Install software:
 

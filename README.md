@@ -220,6 +220,7 @@ Run following command lines to configure UFW:
 $ sudo ufw default deny incoming
 $ sudo ufw default allow outgoing
 $ sudo ufw allow 2200/tcp
+$ sudo ufw deny 22
 $ sudo ufw allow www
 $ sudo ufw allow ntp
 $ sudo ufw enable
